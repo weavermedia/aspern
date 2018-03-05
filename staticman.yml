@@ -1,14 +1,9 @@
-comments:
-  allowedFields: ["name", "email", "url", "message"]
+fields:
+  allowedFields: ["title", "tagline", "avatar_image", "background_image"]
   branch: "master"
   commitMessage: "Add Staticman data"
-  filename: "entry{@timestamp}"
+  filename: "fields"
   format: "yaml"
   moderation: false
   name: "aspern"
   path: "_data"
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: "timestamp-seconds"
