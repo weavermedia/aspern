@@ -2,7 +2,7 @@ fields:
   allowedFields: ["title", "tagline", "avatar_image", "background_image"]
   branch: "master"
   commitMessage: "Add Staticman data"
-  filename: "fields"
+  filename: "fields-{@timestamp}"
   format: "yaml"
   moderation: false
   name: "aspern"
