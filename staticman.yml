@@ -1,0 +1,10 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "master"
+  commitMessage: "Add Staticman data"
+  filename: "entry{@timestamp}"
+  format: "yaml"
+  moderation: false
+  name: "aspern"
+  path: "_data"
+  
