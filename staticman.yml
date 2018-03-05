@@ -7,4 +7,8 @@ comments:
   moderation: false
   name: "aspern"
   path: "_data"
-  
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
